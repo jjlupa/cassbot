@@ -1,0 +1,17 @@
+//
+// pricelistener.js
+//
+// Ask for a price, get a price.
+//
+
+'use strict';
+
+var PriceListener = function Constructor() {
+    // this.whatever = input;
+};
+
+PriceListener.prototype.get = function(itemname) {
+    return "meow : "+itemname;
+};
+
+module.exports = PriceListener;
